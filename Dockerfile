@@ -29,4 +29,5 @@ RUN set -x \
     && apt-get -yqq update \
     && apt-get -yqq dist-upgrade \
     && apt-get clean
+    && apt install man kali-linux-forensic
 CMD ["bash"]
